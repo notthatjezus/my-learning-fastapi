@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "hotel_id": 1,
+    "name": "Standard Double",
+    "description": "Nice room",
+    "price": 5000,
+    "services": ["WiFi"],
+    "quanity": 5,
+    "image_id": 3
+  }
+]

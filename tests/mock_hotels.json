@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Cosmos Hotel",
+    "location": "Moscow",
+    "services": ["WiFi", "Pool"],
+    "rooms_quantity": 10,
+    "image_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Skypoint",
+    "location": "Sheremetyevo",
+    "services": ["Transfer", "Breakfast"],
+    "rooms_quantity": 5,
+    "image_id": 2
+  }
+]
