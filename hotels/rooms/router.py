@@ -5,7 +5,6 @@ from fastapi import APIRouter
 from app.hotels.rooms.dao import RoomDAO
 from app.hotels.rooms.schemas import SRoomsEdit
 
-
 router = APIRouter(
     prefix="/hotels",
     tags=["Номера отелей"]
