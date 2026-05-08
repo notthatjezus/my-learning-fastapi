@@ -4,13 +4,13 @@ import asyncio
 from datetime import date
 
 from fastapi import APIRouter, Depends
+from fastapi_cache.decorator import cache
 
 from app.exceptions import HotelsCannotBeAddedException
 from app.hotels.dao import HotelsDao
 from app.hotels.schemas import SHotel
 from app.users.dependencies import get_current_user
 from app.users.models import Users
-from fastapi_cache.decorator import cache
 
 router = APIRouter(
     prefix="/hotels",

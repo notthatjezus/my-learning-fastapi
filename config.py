@@ -3,6 +3,7 @@ from typing import Literal
 from pydantic import model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+
 class Settings(BaseSettings):
     MODE: Literal["DEV", "PROD", "TEST"]
 
